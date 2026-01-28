@@ -166,16 +166,13 @@ Investlab is a token-based investment simulation platform where a **human invest
 ## Getting Started (planned)
 
 ```bash
-# Clone repo
-git clone https://github.com/yourusername/investlab.git
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Set up PostgreSQL & env variables
-# ...
-
 # Run backend
+cd backend
+pip install -r requirements.txt
 uvicorn app.main:app --reload
 
 # Run frontend
