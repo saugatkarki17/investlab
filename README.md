@@ -159,7 +159,7 @@ Investlab is a token-based investment simulation platform where a **human invest
 **Output:** Portfolio-grade, production-quality system
 
 ## Project Status
-- Name updated to **Investlab**
+- Name: **Investlab**
 - Focus: explainable AI + educational human–AI competition
 - Stack emphasizes open-source tools, reproducibility, and transparency
 
