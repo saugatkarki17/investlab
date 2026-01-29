@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pandas
+numpy
+scikit-learn
+supabase
+sqlalchemy
+requests
+yfinance  
+transformers       # For FinBERT (HuggingFace)
+torch
