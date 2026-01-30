@@ -10,3 +10,5 @@ requests
 yfinance  
 transformers       # For FinBERT (HuggingFace)
 torch
+pyarrow
+pandas_ta

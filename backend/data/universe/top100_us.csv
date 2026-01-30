@@ -1,0 +1,101 @@
+ticker,company,sector,exchange,active
+NVDA,NVIDIA Corp.,Technology,NASDAQ,1
+GOOG,Alphabet Inc. (Class C),Communication Services,NASDAQ,1
+AAPL,Apple Inc.,Technology,NASDAQ,1
+MSFT,Microsoft Corp.,Technology,NASDAQ,1
+AMZN,Amazon.com Inc.,Consumer Discretionary,NASDAQ,1
+META,Meta Platforms Inc.,Communication Services,NASDAQ,1
+AVGO,Broadcom Inc.,Technology,NASDAQ,1
+TSLA,Tesla Inc.,Consumer Discretionary,NASDAQ,1
+BRK-B,Berkshire Hathaway Inc.,Financials,NYSE,1
+WMT,Walmart Inc.,Consumer Staples,NYSE,1
+LLY,Eli Lilly and Co.,Healthcare,NYSE,1
+JPM,JPMorgan Chase & Co.,Financials,NYSE,1
+V,Visa Inc.,Financials,NYSE,1
+XOM,Exxon Mobil Corp.,Energy,NYSE,1
+JNJ,Johnson & Johnson,Healthcare,NYSE,1
+MA,Mastercard Inc.,Financials,NYSE,1
+MU,Micron Technology Inc.,Technology,NASDAQ,1
+ORCL,Oracle Corp.,Technology,NYSE,1
+COST,Costco Wholesale Corp.,Consumer Staples,NASDAQ,1
+AMD,Advanced Micro Devices Inc.,Technology,NASDAQ,1
+ABBV,AbbVie Inc.,Healthcare,NYSE,1
+BAC,Bank of America Corp.,Financials,NYSE,1
+HD,Home Depot Inc.,Consumer Discretionary,NYSE,1
+PLTR,Palantir Technologies Inc.,Technology,NYSE,1
+NFLX,Netflix Inc.,Communication Services,NASDAQ,1
+PG,Procter & Gamble Co.,Consumer Staples,NYSE,1
+CVX,Chevron Corp.,Energy,NYSE,1
+KO,Coca-Cola Co.,Consumer Staples,NYSE,1
+GE,General Electric Co.,Industrials,NYSE,1
+LRCX,Lam Research Corp.,Technology,NASDAQ,1
+CAT,Caterpillar Inc.,Industrials,NYSE,1
+CSCO,Cisco Systems Inc.,Technology,NASDAQ,1
+MS,Morgan Stanley,Financials,NYSE,1
+IBM,International Business Machines Corp.,Technology,NYSE,1
+GS,Goldman Sachs Group Inc.,Financials,NYSE,1
+WFC,Wells Fargo & Co.,Financials,NYSE,1
+PM,Philip Morris International Inc.,Consumer Staples,NYSE,1
+AMAT,Applied Materials Inc.,Technology,NASDAQ,1
+MRK,Merck & Co. Inc.,Healthcare,NYSE,1
+RTX,RTX Corp.,Industrials,NYSE,1
+UNH,UnitedHealth Group Inc.,Healthcare,NYSE,1
+AXP,American Express Co.,Financials,NYSE,1
+INTC,Intel Corp.,Technology,NASDAQ,1
+MCD,McDonald's Corp.,Consumer Discretionary,NYSE,1
+TMO,Thermo Fisher Scientific Inc.,Healthcare,NYSE,1
+KLAC,KLA Corp.,Technology,NASDAQ,1
+TMUS,T-Mobile US Inc.,Communication Services,NASDAQ,1
+C,Citigroup Inc.,Financials,NYSE,1
+CRM,Salesforce Inc.,Technology,NYSE,1
+PEP,PepsiCo Inc.,Consumer Staples,NASDAQ,1
+DIS,Walt Disney Co.,Communication Services,NYSE,1
+TXN,Texas Instruments Inc.,Technology,NASDAQ,1
+GEV,GE Vernova Inc.,Industrials,NYSE,1
+APP,AppLovin Corp.,Technology,NASDAQ,1
+SCHW,Charles Schwab Corp.,Financials,NYSE,1
+ANET,Arista Networks Inc.,Technology,NYSE,1
+AMGN,Amgen Inc.,Healthcare,NASDAQ,1
+ABT,Abbott Laboratories,Healthcare,NYSE,1
+NEE,NextEra Energy Inc.,Utilities,NYSE,1
+BA,Boeing Co.,Industrials,NYSE,1
+APH,Amphenol Corp.,Technology,NYSE,1
+ISRG,Intuitive Surgical Inc.,Healthcare,NASDAQ,1
+T,AT&T Inc.,Communication Services,NYSE,1
+BX,Blackstone Inc.,Financials,NYSE,1
+BLK,BlackRock Inc.,Financials,NYSE,1
+GILD,Gilead Sciences Inc.,Healthcare,NASDAQ,1
+UBER,Uber Technologies Inc.,Industrials,NYSE,1
+SCCO,Southern Copper Corp.,Materials,NYSE,1
+VZ,Verizon Communications Inc.,Communication Services,NYSE,1
+BKNG,Booking Holdings Inc.,Consumer Discretionary,NASDAQ,1
+TJX,TJX Companies Inc.,Consumer Discretionary,NYSE,1
+QCOM,QUALCOMM Inc.,Technology,NASDAQ,1
+SPGI,S&P Global Inc.,Financials,NYSE,1
+ADI,Analog Devices Inc.,Technology,NASDAQ,1
+DHR,Danaher Corp.,Healthcare,NYSE,1
+HON,Honeywell International Inc.,Industrials,NYSE,1
+LOW,Lowe's Companies Inc.,Consumer Discretionary,NYSE,1
+PFE,Pfizer Inc.,Healthcare,NYSE,1
+LMT,Lockheed Martin Corp.,Industrials,NYSE,1
+DE,Deere & Co.,Industrials,NYSE,1
+INTU,Intuit Inc.,Technology,NASDAQ,1
+NEM,Newmont Corp.,Materials,NYSE,1
+COF,Capital One Financial Corp.,Financials,NYSE,1
+UNP,Union Pacific Corp.,Industrials,NYSE,1
+BSX,Boston Scientific Corp.,Healthcare,NYSE,1
+SYK,Stryker Corp.,Healthcare,NYSE,1
+IBKR,Interactive Brokers Group Inc.,Financials,NASDAQ,1
+COP,ConocoPhillips,Energy,NYSE,1
+WELL,Welltower Inc.,Real Estate,NYSE,1
+NOW,ServiceNow Inc.,Technology,NYSE,1
+PANW,Palo Alto Networks Inc.,Technology,NASDAQ,1
+ADBE,Adobe Inc.,Technology,NASDAQ,1
+PGR,Progressive Corp.,Financials,NYSE,1
+VRTX,Vertex Pharmaceuticals Inc.,Healthcare,NASDAQ,1
+PLD,Prologis Inc.,Real Estate,NYSE,1
+PH,Parker-Hannifin Corp.,Industrials,NYSE,1
+CMCSA,Comcast Corp.,Communication Services,NASDAQ,1
+HCA,HCA Healthcare Inc.,Healthcare,NYSE,1
+CRWD,CrowdStrike Holdings Inc.,Technology,NASDAQ,1
+BMY,Bristol-Myers Squibb Co.,Healthcare,NYSE,1

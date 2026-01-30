@@ -110,3 +110,15 @@ investlab/
     ├── system_contract.md        # Trading rules & constraints
     ├── architecture.md           # High-level system architecture
     └── explainability.md         # AI explainability design
+
+
+1. ingestion.py -> fetch raw market data
+2. features.py -> compute returns, volatility, RSI, target
+3. sentiment.py -> compute daily rolling sentiment
+4. Merge features + sentiment
+5. train.py -> train ML model
+6. signal_engine.py -> generate trade signals
+7. risk_manager & position_sizer -> manage allocations
+8. execution_engine.py -> simulate trades
+9. metrics.py -> evaluate performance
+10. explainability/ -> explain model trades
