@@ -58,40 +58,55 @@ def analyze_headlines(headlines):
 # -----------------------------
 # Fetch top business headlines
 # -----------------------------
-def fetch_market_news(api_key=None, total_articles=1000, page_size=100):
+def fetch_market_news(
+    api_key=NEWSAPI_KEY,
+    total_articles=1000,
+    page_size=100,
+    lookback_days=3,
+):
+    if not api_key:
+        raise ValueError("NEWSAPI_KEY is required for /everything endpoint")
+
     all_headlines = []
-    max_pages = (total_articles + page_size - 1) // page_size  # ceil division
+    max_pages = (total_articles + page_size - 1) // page_size
+    from_date = (pd.Timestamp.utcnow() - pd.Timedelta(days=lookback_days)).strftime("%Y-%m-%d")
 
     for page in range(1, max_pages + 1):
         try:
-            url = "https://newsapi.org/v2/top-headlines"
+            url = "https://newsapi.org/v2/everything"
             params = {
-                "category": "business",
+                "q": "stock OR market OR economy OR earnings OR inflation",
                 "language": "en",
+                "sortBy": "publishedAt",
+                "from": from_date,
                 "pageSize": page_size,
                 "page": page,
+                "apiKey": api_key,
             }
-            if api_key:
-                params["apiKey"] = api_key
 
-            response = requests.get(url, params=params, timeout=10)
+            response = requests.get(url, params=params, timeout=15)
             response.raise_for_status()
             data = response.json()
             articles = data.get("articles", [])
 
-            for article in articles:
-                title = article.get("title")
-                published = article.get("publishedAt")
+            print(f"📰 Page {page}: {len(articles)} articles")
+
+            for a in articles:
+                title = a.get("title")
+                published = a.get("publishedAt")
                 if title and published:
-                    all_headlines.append({"Date": published, "Headline": title})
+                    all_headlines.append({
+                        "Date": published,
+                        "Headline": title
+                    })
 
             if len(articles) < page_size:
-                break  # no more articles
+                break
 
-            time.sleep(1)  # polite delay
+            time.sleep(1)  # rate-limit friendly
 
         except Exception as e:
-            print(f"⚠️ Failed to fetch news on page {page}: {e}")
+            print(f"⚠️ Failed on page {page}: {e}")
             break
 
     return pd.DataFrame(all_headlines)
@@ -99,7 +114,7 @@ def fetch_market_news(api_key=None, total_articles=1000, page_size=100):
 # -----------------------------
 # Build daily sentiment
 # -----------------------------
-def build_daily_sentiment(api_key=None):
+def build_daily_sentiment(api_key=NEWSAPI_KEY):
     df_news = fetch_market_news(api_key=api_key or NEWSAPI_KEY, total_articles=1000, page_size=100)
 
     if df_news.empty:
